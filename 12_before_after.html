@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Before - After</title>
+  <script src="js/prefixfree.js"></script>
+  <!--Estilo para dar formato a la primera (before) y ultima (after) letra-->
+  <style>
+
+    /*Estilo a la primera letra*/
+    h1::before{
+      content: "D";
+      color: red;
+    }
+
+    /*Estilo a la ultima letra*/
+    h1::after{
+      content:"S";
+      color: pink;
+    }
+  </style>
+</head>
+<body>
+<h1>ulces Tejido</h1>
+</body>
+</html>

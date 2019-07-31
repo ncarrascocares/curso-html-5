@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Colores</title>
+  <script src="js/prefixfree.js"></script>
+  <style>
+      /*Impportacion de fuentes para darle estilo a letras*/
+      @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+    body{
+      /*Fondo de la pagina, colocando una imagen*/
+      background: url(imagenes/ovillos.jpg) no-repeat;
+      background-size: cover;
+    }
+
+    /*Formato al cuadro que se agrego sobre la imagen*/
+    #cuadro {
+      /*Alto del cuadro*/
+      width: 500px;
+      /*Espacio de separacion del texto con los bodes*/
+      padding: 30px;
+      /*Formato del borde y con color en formato rgba*/
+      border: 5px solid rgba(255,255,255,0.3);
+      /*Da formato a las puntas de un cuadrado, en este caso redondea las puntas*/
+      border-radius: 25px;
+      /*Posicion del texto*/
+      text-align: center;
+      /*Llamada al estilo de las letras*/
+      font-family: 'Indie Flower', cursive;
+      color: rgba(255, 17, 255, 0.9);
+      /*Posicion del cuadrado, el orden de los valores va en sentido de las manillas del reloj */
+      margin:30px auto;
+      /*el formato rgba permite dar consistencia personalizada a los colores*/
+      background: rgba( 255, 63, 41, 0.3);
+    }
+    #navegacion{
+      width: 300px;
+      margin: 30px auto;
+      text-align: center;
+      padding: 5px;
+
+    }
+
+    #cuadro2{
+    background:rgba( 255, 63, 41, 0.3) ;
+    }
+  </style>
+</head>
+<body>
+  <div id="cuadro">
+    <h1>Dulces Tejidos</h1>
+  </div>
+  <nav id="navegacion">
+    <a href="#">Contacto</a>
+    <a href="#">Imagenes</a>
+    <a href="#">Dulces Tejidos</a>
+  </nav>
+  <section id="cuadro2">
+
+  </section>
+</body>
+</html>

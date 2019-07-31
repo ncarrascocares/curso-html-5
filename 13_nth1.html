@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>nth-child</title>
+  <script src="js/prefixfree.js"></script>
+  <style>
+    /*Primera forma de modificar una lista, en esta se debe referenciar a traves de un nombre en la lista, en este caso se cambio lo que tienen la clase="algo"*/
+    .algo{
+      background: #ff0;
+    }
+
+    /*Segunda forma de modificar contenido de una lista, con esta solo se debe indicar la posicion, en este caso se cambio la posicion 10*/
+    li:nth-child(10){
+      background: #96c;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="algo">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li class="algo">Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+    <li class="algo">Elemento 6</li>
+    <li>Elemento 7</li>
+    <li>Elemento 8</li>
+    <li>Elemento 9</li>
+    <li>Elemento 10</li>
+  </ul>
+</body>
+</html>

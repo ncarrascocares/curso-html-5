@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Backgraund Origin</title>
+  <script src="js/prefixfree"></script>
+  <style>
+
+    #fondo {
+    padding: 50px;
+    border: 1px solid  #f00;
+    background: #ff0 url(imagenes/ovillos.jpg) no-repeat;
+    background-origin: content-box;
+    }
+
+    p {
+    margin: 0; color:red;
+    }
+
+    #navi {
+
+    padding: 10px;
+    background: #ff0;
+
+    }
+
+    #navi ul a{
+    padding: 10px;
+    background: #F5AB9D;
+    background-origin: content-box;
+    }
+
+  </style>
+</head>
+<body>
+  <header id="fondo">
+    <h1>Dulces Tejidos</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, amet temporibus libero obcaecati fugiat doloremque distinctio ex dolore laborum! Tenetur recusandae eaque vel aut enim commodi suscipit at iusto. Deleniti.</p>
+  </header>
+  <nav id="navi">
+    <ul>
+      <a href="#">Tejidos</a>
+      <a href="#">Imagenes</a>
+      <a href="#">Contacto</a>
+      <a href="#">Catalogo</a>
+    </ul>
+  </nav>
+</body>
+</html>

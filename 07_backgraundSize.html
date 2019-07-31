@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tamaño del fondo</title>
+
+  <!--referencia a la carpeta donde se encuentra ubicado el complemento-->
+  <script src="js/prefixfree.js"></script>
+  <!--Etiqueta que permite el dar estilo a las etiquetas que se encuentran dentro del body-->
+  <style>
+
+    #cuadro {
+      /*width permite asignar el alto*/
+      width: 100%;
+
+      /*height permite asignar el ancho*/
+      height: 300px;
+
+      /*background permite dar un formato al foondo, en este caso esta dando color aarillo y esta insertando una imagen*/
+      background: #ff0 url(imagenes/ovillos.jpg) no-repeat;
+
+      /*background-size permite modificar la imagen que se inserto en el background, en esta linea estamos afectando el ancho y el alto*/
+      background-size: 100px 100px;
+    }
+
+  </style>
+</head>
+
+<!--Cuerpo de la pagina-->
+<body>
+  <h1>Dulces tejidos</h1>
+  <div id="cuadro"></div>
+</body>
+</html>

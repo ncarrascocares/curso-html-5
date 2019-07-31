@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <h3>Formularios</h3>
+</head>
+<body>
+  <!--Creación de un formulario desde la linea 13, con el metodo post, el cual permite
+enviar la informacion, ya sea a una base de datos o algun formulario de recepcion-->
+  <form action="Enviar" method="post">
+    Ingrese sitio<input type="url" name="web" id="">
+    <br>
+    Ingrese Nombre <input type="text" nombre="nombre" id="" required autofocus placeholder="Escriba su nombre">
+    <br>
+    Ingrese Edad <input type="number" name="edad" id="" min="20"max="30">
+    <br>
+    ingrese fecha <input type="date" name="fecha" id="">
+    <br>
+    ingrese color <input type="color" name="colores" id="">
+    <br>
+    <!--Creacion de una lista desplegable, la esta creada en la linea 24 y lalista que desplegara esta creada desde la linea 25 a la 29-->
+    Lista desplegable <input list="colores" name="colores" id="">
+    <datalist id="colores">
+      <option value="Rojo">
+        <option value="Verde">
+          <option value="Amarillo">
+            <option value="Violeta">
+    </datalist>
+    <br>
+    <!--Creacion de un input en la linea 35, el cual permitira darle
+    funcionamiento a un boton, para el envio de informacion que fue cargada
+    en el formulario-->
+    <input type="image" src="imagenes/boton.jpg" value="Enviar">
+    <!--Fin del formulario, linea 38-->
+  </form>
+</body>
+</html>
